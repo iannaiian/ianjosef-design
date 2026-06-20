@@ -45,11 +45,6 @@ export function AboutSection() {
               ship interfaces that feel obvious — the kind people never have to
               think about.
             </p>
-            <p>
-              When I&apos;m not in Figma, you&apos;ll find me sketching type,
-              collecting vintage design books, and mentoring early-career
-              designers.
-            </p>
           </div>
 
           {/* <div className="mt-8 grid grid-cols-3 gap-4 border-t border-border pt-6">
