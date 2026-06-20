@@ -82,15 +82,35 @@ export const works: CaseStudy[] = [
     challenge:
       "Users were overwhelmed by the complexity of their existing banking app. Transaction history was buried, account balances weren't clear at a glance, and transferring money between accounts required six separate steps.",
     solution:
-      "We redesigned the entire experience around clarity and speed. The dashboard now surfaces what matters most through a card-based layout, transaction search is instant, and peer-to-peer transfers take just two taps. We introduced a calming dark theme with warm accent colors to reduce cognitive load.",
+      "We redesigned the entire experience around clarity and speed. The dashboard now surfaces what matters most through a card-based layout, transaction search is instant, and peer-to-peer transfers take just two taps.",
     results: [
-      "40% increase in daily active users",
-      "85% reduction in support tickets about transfers",
-      "4.8-star rating on both app stores",
-      "Reduced time-to-transfer from 3 minutes to 20 seconds",
+      "Easy trackin of finances with a clear, intuitive dashboard",
+      "Clean and modern design that feels approachable and trustworthy",
+      "Reduced clutter and cognitive load, making it easier for users to manage their money",
     ],
     tags: ["Mobile Design", "Fintech", "User Research", "Prototyping"],
 
     url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=137-95294&p=f&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=137%3A34938&starting-point-node-id=137%3A95294&hide-ui=1",
+  },
+  {
+    title: "Aemorph",
+    category: "Fitness · Website",
+    year: "2024",
+    image: "/images/aemorph1.png",
+    description:
+      "A modern, conversion-focused website designed for an online coaching business to increase client bookings and strengthen its digital presence.",
+    challenge:
+      "Visitors struggled to understand the coaching offers. No clear calls to action throughout the website. Low engagement on mobile devices. Limited social proof and trust-building elements.",
+    solution:
+      "We redesigned the online coaching website with a user-centered approach focused on increasing conversions and improving the overall user experience. The new website features clear messaging that highlights the coach’s value proposition, simplified navigation to help visitors quickly explore available programs, and strategically placed calls to action that encourage consultation bookings. To build trust and credibility, we incorporated client testimonials, success stories, and coach credentials throughout the site. The entire experience was optimized for mobile devices, ensuring seamless performance and accessibility across all screen sizes.",
+    // results: [
+    //   "42% increase in consultation bookings",
+    //   "35% decrease in bounce rate",
+    //   "28% increase in average session duration",
+    //   "51% increase in mobile conversions",
+    // ],
+    tags: ["Mobile Design", "Fintech", "User Research", "Prototyping"],
+
+    url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
   },
 ];

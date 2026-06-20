@@ -123,12 +123,18 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                 Results
               </h3>
               <ul className="space-y-2">
-                {project.results.map((result, idx) => (
-                  <li key={idx} className="flex gap-3 text-foreground">
-                    <span className="text-primary">→</span>
-                    <span>{result}</span>
+                {!project.results || project.results.length === 0 ? (
+                  <li className="text-foreground text-shadow-rose-600">
+                    Results not available
                   </li>
-                ))}
+                ) : (
+                  project.results.map((result, idx) => (
+                    <li key={idx} className="flex gap-3 text-foreground">
+                      <span className="text-primary">→</span>
+                      <span>{!result ? "Results not available" : result}</span>
+                    </li>
+                  ))
+                )}
               </ul>
             </div>
 
