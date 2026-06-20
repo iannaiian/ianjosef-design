@@ -132,6 +132,6 @@ export const works: CaseStudy[] = [
     // ],
     tags: ["Web Design", "Figma", "User Research"],
 
-    url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
+    url: "https://www.figma.com/design/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-1",
   },
 ];
