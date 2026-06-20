@@ -72,9 +72,6 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                 fill
                 className="object-cover"
               />
-              <span className="font-mono text-sm text-muted-foreground">
-                {project.year}
-              </span>
             </div>
 
             {/* Metadata */}
@@ -118,25 +115,24 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
             </div>
 
             {/* Results */}
-            <div className="mb-8 border-t border-border pt-8">
-              <h3 className="mb-4 font-serif text-xl font-medium text-foreground">
-                Results
-              </h3>
-              <ul className="space-y-2">
-                {!project.results || project.results.length === 0 ? (
-                  <li className="text-foreground text-shadow-rose-600">
-                    Results not available
-                  </li>
-                ) : (
-                  project.results.map((result, idx) => (
-                    <li key={idx} className="flex gap-3 text-foreground">
-                      <span className="text-primary">→</span>
-                      <span>{!result ? "Results not available" : result}</span>
-                    </li>
-                  ))
-                )}
-              </ul>
-            </div>
+            {project.results?.length > 0 && (
+              <div className="mb-8 border-t border-border pt-8">
+                <div>
+                  <h3 className="mb-4 font-serif text-xl font-medium text-foreground">
+                    Results
+                  </h3>
+
+                  <ul className="space-y-2">
+                    {project.results.map((result, idx) => (
+                      <li key={idx} className="flex gap-3 text-foreground">
+                        <span className="text-primary">→</span>
+                        <span>{result}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
 
             {/* CTA */}
 
