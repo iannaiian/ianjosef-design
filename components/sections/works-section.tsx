@@ -89,7 +89,7 @@ export function WorksSection() {
               </article>
             ))}
 
-            <article className="group relative flex h-full cursor-pointer items-center justify-center rounded-2xl border bg-[#0f0f0f] p-2 transition-colors hover:border-primary/50 hover:shadow-lg md:rounded-3xl">
+            <article className="group relative flex md:h-auto h-50 cursor-pointer items-center justify-center rounded-2xl border bg-[#0f0f0f] p-2 transition-colors hover:border-primary/50 hover:shadow-lg md:rounded-3xl ">
               <GlowingEffect
                 spread={40}
                 glow={true}
@@ -99,7 +99,7 @@ export function WorksSection() {
                 borderWidth={3}
               />
 
-              <h2 className="text-3xl font-medium capitalize text-foreground transition-colors group-hover:text-primary">
+              <h2 className="md:text-3xl font-medium capitalize text-foreground transition-colors group-hover:text-primary">
                 More coming soon!
               </h2>
               <BackgroundBeams />
