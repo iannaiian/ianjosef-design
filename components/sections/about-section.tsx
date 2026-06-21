@@ -13,6 +13,7 @@ const skills = [
   "Prototyping",
   "Interaction Design",
   "Usability Testing",
+  "Figma",
 ];
 
 export function AboutSection() {
@@ -63,7 +64,7 @@ export function AboutSection() {
               href="https://drive.google.com/file/d/1IwwntzKwRj2jqDvMy54Qpj2boSO4GDLG/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-border mt-6 px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:px-8 md:py-4"
+              className="rounded-full border border-[#ef852e] mt-6 px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:px-8 md:py-4"
             >
               Download Resume
             </a>

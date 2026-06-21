@@ -113,25 +113,47 @@ export const works: CaseStudy[] = [
 
     url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
   },
+
   {
-    title: "Other Websites",
-    category: "Branding · Websites",
-    year: "2019-2026",
-    image: "/images/websites.png",
+    title: "One Source Associates Inc.",
+    category: "Lighting/Electrical Supplies · Website",
+    year: "2024",
+    image: "/images/onesa.png",
     description:
-      "Collection of projects I've completed for various clients, from small businesses to startups. Each project is a unique case study in understanding client needs, user research, and crafting tailored digital solutions that drive results.",
-    challenge:
-      "Most of the websites I worked on are either outdated or didn't really solve the clients' problems. Common issues included poor navigation, lack of clear calls to action, and designs that didn't resonate with the target audience.",
-    solution:
-      "To address these challenges, I redesigned each website with a strategic, user-centered approach focused on both business goals and user needs. I improved site architecture and navigation to create a more intuitive browsing experience, developed clear and compelling calls to action to guide visitors toward key conversion points, and refreshed the visual design to better align with the target audience’s preferences and expectations. Through audience research, content prioritization, and responsive design best practices, the new websites delivered a more engaging experience that increased usability, strengthened brand perception, and supported measurable business outcomes.",
+      "Website maintenance for a lighting and electrical supplies company, focused on improving user experience, updating design elements, and ensuring the site remains functional and visually appealing across all devices.",
+    // challenge:
+    //   "Visitors struggled to understand the coaching offers. No clear calls to action throughout the website. Low engagement on mobile devices. Limited social proof and trust-building elements.",
+    // solution:
+    //   "We redesigned the online coaching website with a user-centered approach focused on increasing conversions and improving the overall user experience. The new website features clear messaging that highlights the coach’s value proposition, simplified navigation to help visitors quickly explore available programs, and strategically placed calls to action that encourage consultation bookings. To build trust and credibility, we incorporated client testimonials, success stories, and coach credentials throughout the site. The entire experience was optimized for mobile devices, ensuring seamless performance and accessibility across all screen sizes.",
     // results: [
     //   "42% increase in consultation bookings",
     //   "35% decrease in bounce rate",
     //   "28% increase in average session duration",
     //   "51% increase in mobile conversions",
     // ],
-    tags: ["Web Design", "Figma", "User Research"],
+    tags: ["Web Maintenance", "NextJS", "Content Management"],
 
-    url: "https://www.figma.com/design/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-1",
+    url: "https://www.onesa.com/",
   },
+  // {
+  //   title: "Other Websites",
+  //   category: "Branding · Websites",
+  //   year: "2019-2026",
+  //   image: "/images/websites.png",
+  //   description:
+  //     "Collection of projects I've completed for various clients, from small businesses to startups. Each project is a unique case study in understanding client needs, user research, and crafting tailored digital solutions that drive results.",
+  //   challenge:
+  //     "Most of the websites I worked on are either outdated or didn't really solve the clients' problems. Common issues included poor navigation, lack of clear calls to action, and designs that didn't resonate with the target audience.",
+  //   solution:
+  //     "To address these challenges, I redesigned each website with a strategic, user-centered approach focused on both business goals and user needs. I improved site architecture and navigation to create a more intuitive browsing experience, developed clear and compelling calls to action to guide visitors toward key conversion points, and refreshed the visual design to better align with the target audience’s preferences and expectations. Through audience research, content prioritization, and responsive design best practices, the new websites delivered a more engaging experience that increased usability, strengthened brand perception, and supported measurable business outcomes.",
+  //   // results: [
+  //   //   "42% increase in consultation bookings",
+  //   //   "35% decrease in bounce rate",
+  //   //   "28% increase in average session duration",
+  //   //   "51% increase in mobile conversions",
+  //   // ],
+  //   tags: ["Web Design", "Figma", "User Research"],
+
+  //   url: "https://www.figma.com/design/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-1",
+  // },
 ];

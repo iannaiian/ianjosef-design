@@ -7,6 +7,7 @@ import { works } from "@/lib/portfolio-data";
 import type { CaseStudy } from "@/lib/portfolio-data";
 
 import { GlowingEffect } from "@/components/ui/glowing-effect";
+import { BackgroundBeams } from "../ui/background-beams";
 
 export function WorksSection() {
   const [selectedProject, setSelectedProject] = useState<CaseStudy | null>(
@@ -47,7 +48,7 @@ export function WorksSection() {
             {works.map((work) => (
               <article
                 key={work.title}
-                className="group cursor-pointer relative h-full rounded-2xl border p-2 md:rounded-3xl bg-[#181818] transition-colors hover:border-primary/50 hover:shadow-lg"
+                className="group cursor-pointer relative h-full rounded-2xl border p-2 md:rounded-3xl bg-[#0f0f0f] transition-colors hover:border-primary/50 hover:shadow-lg"
                 onClick={() => openProjectModal(work)}
               >
                 <GlowingEffect
@@ -87,6 +88,22 @@ export function WorksSection() {
                 </div>
               </article>
             ))}
+
+            <article className="group relative flex h-full cursor-pointer items-center justify-center rounded-2xl border bg-[#0f0f0f] p-2 transition-colors hover:border-primary/50 hover:shadow-lg md:rounded-3xl">
+              <GlowingEffect
+                spread={40}
+                glow={true}
+                disabled={false}
+                proximity={64}
+                inactiveZone={0.01}
+                borderWidth={3}
+              />
+
+              <h2 className="text-3xl font-medium capitalize text-foreground transition-colors group-hover:text-primary">
+                More coming soon!
+              </h2>
+              <BackgroundBeams />
+            </article>
           </div>
         </div>
       </div>

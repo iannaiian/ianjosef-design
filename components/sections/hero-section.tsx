@@ -37,7 +37,7 @@ export function HeroSection({
             </button>
             <button
               onClick={() => onNavigate("about")}
-              className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:px-8 md:py-4"
+              className="rounded-full border border-[#ef852e] px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:px-8 md:py-4"
             >
               More about me
             </button>

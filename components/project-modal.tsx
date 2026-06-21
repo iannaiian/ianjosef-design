@@ -95,25 +95,29 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
             </div>
 
             {/* Challenge */}
-            <div className="mb-8 border-t border-border pt-8">
-              <h3 className="mb-4 font-serif text-xl font-medium text-foreground">
-                Challenge
-              </h3>
-              <p className="leading-relaxed text-foreground">
-                {project.challenge}
-              </p>
-            </div>
+
+            {project.challenge?.length > 0 && (
+              <div className="mb-8 border-t border-border pt-8">
+                <h3 className="mb-4 font-serif text-xl font-medium text-foreground">
+                  Challenge
+                </h3>
+                <p className="leading-relaxed text-foreground">
+                  {project.challenge}
+                </p>
+              </div>
+            )}
 
             {/* Solution */}
-            <div className="mb-8 border-t border-border pt-8">
-              <h3 className="mb-4 font-serif text-xl font-medium text-foreground">
-                Solution
-              </h3>
-              <p className="leading-relaxed text-foreground">
-                {project.solution}
-              </p>
-            </div>
-
+            {project.challenge?.length > 0 && (
+              <div className="mb-8 border-t border-border pt-8">
+                <h3 className="mb-4 font-serif text-xl font-medium text-foreground">
+                  Solution
+                </h3>
+                <p className="leading-relaxed text-foreground">
+                  {project.solution}
+                </p>
+              </div>
+            )}
             {/* Results */}
             {project.results?.length > 0 && (
               <div className="mb-8 border-t border-border pt-8">
