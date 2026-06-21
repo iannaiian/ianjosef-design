@@ -87,7 +87,7 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
 
               <a
                 href={project.url}
-                className="rounded-full bg-foreground px-5 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
+                className="rounded-full bg-foreground px-5 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 text-center"
                 target="_blank"
               >
                 See Project

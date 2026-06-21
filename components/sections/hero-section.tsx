@@ -31,13 +31,13 @@ export function HeroSection({
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <button
               onClick={() => onNavigate("works")}
-              className="rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              className="rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 md:px-8 md:py-4"
             >
               View selected work
             </button>
             <button
               onClick={() => onNavigate("about")}
-              className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+              className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:px-8 md:py-4"
             >
               More about me
             </button>

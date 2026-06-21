@@ -15,7 +15,7 @@ export function ExperienceSection() {
         <ol className="">
           {experiences.map((exp) => (
             <li key={exp.role}>
-              <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl group grid gap-3 py-6 transition-colors md:grid-cols-[180px_1fr] md:gap-8 bg-[#181818] mb-10 px-6 ">
+              <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl group grid gap-3 py-6 transition-colors md:grid-cols-[90px_1fr] md:gap-8 bg-[#181818] mb-10 px-6 ">
                 {" "}
                 <GlowingEffect
                   spread={40}
@@ -33,7 +33,7 @@ export function ExperienceSection() {
                     {exp.role}{" "}
                     <span className="text-primary">· {exp.company}</span>
                   </h3>
-                  <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted-foreground">
                     {exp.summary}
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
