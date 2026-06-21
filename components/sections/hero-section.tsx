@@ -3,6 +3,7 @@
 import type { SectionId } from "@/lib/portfolio-data";
 import { Spotlight } from "../ui/spotlight";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
+import FadeContent from "./../FadeContent";
 
 const words = `Transforming complex ideas into simple, user-centered products.`;
 
@@ -47,11 +48,18 @@ export function HeroSection({
           </p>
         </div>
         <div>
-          <img
-            src="images/persona.png"
-            alt="Ian Josef Portrait"
-            className="md:absolute md:block hidden md:mx-auto xl:w-250 md:w-200 md:-bottom-0 -right-20 z-0 opacity-45"
-          />
+          <FadeContent
+            blur={true}
+            duration={3000}
+            easing="ease-out"
+            initialOpacity={0}
+          >
+            <img
+              src="images/persona.png"
+              alt="Ian Josef Portrait"
+              className="md:absolute md:block hidden md:mx-auto xl:w-250 md:w-200 md:bottom-0 -right-20 z-0 opacity-45"
+            />
+          </FadeContent>
         </div>
       </div>
     </div>
