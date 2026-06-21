@@ -65,7 +65,8 @@ export function Navbar({
           <HoverBorderGradient
             containerClassName="rounded-full"
             as="button"
-            className="dark:bg-black text-white dark:text-white flex items-center space-x-2 md:px-8 md:py-4"
+            duration={0.5}
+            className="dark:bg-black text-white hover:text-[#ef852e] transition duration-1000 ease-in-out dark:text-white flex items-center space-x-2 md:px-8 md:py-4"
           >
             Let&apos;s talk
           </HoverBorderGradient>
