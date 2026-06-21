@@ -6,6 +6,8 @@ import { ProjectModal } from "@/components/project-modal";
 import { works } from "@/lib/portfolio-data";
 import type { CaseStudy } from "@/lib/portfolio-data";
 
+import { GlowingEffect } from "@/components/ui/glowing-effect";
+
 export function WorksSection() {
   const [selectedProject, setSelectedProject] = useState<CaseStudy | null>(
     null,
@@ -41,13 +43,21 @@ export function WorksSection() {
             </p>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2 ">
             {works.map((work) => (
               <article
                 key={work.title}
-                className="group cursor-pointer"
+                className="group cursor-pointer relative h-full rounded-2xl border p-2 md:rounded-3xl bg-[#181818] transition-colors hover:border-primary/50 hover:shadow-lg"
                 onClick={() => openProjectModal(work)}
               >
+                <GlowingEffect
+                  spread={40}
+                  glow={true}
+                  disabled={false}
+                  proximity={64}
+                  inactiveZone={0.01}
+                  borderWidth={3}
+                />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border transition-all duration-300 hover:border-primary/50 hover:shadow-lg">
                   <Image
                     src={work.image || "/placeholder.svg"}
@@ -57,22 +67,24 @@ export function WorksSection() {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="mt-4 flex items-start justify-between gap-4">
-                  <div>
-                    <h3 className="text-lg font-medium text-foreground transition-colors group-hover:text-primary">
-                      {work.title}
-                    </h3>
-                    <p className="mt-0.5 text-xs uppercase tracking-wider text-muted-foreground">
-                      {work.category}
-                    </p>
+                <div className="p-5">
+                  <div className="mt-4 flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="text-xl font-medium text-foreground transition-colors group-hover:text-primary">
+                        {work.title}
+                      </h3>
+                      <p className="mt-0.5 text-xs uppercase tracking-wider text-muted-foreground">
+                        {work.category}
+                      </p>
+                    </div>
+                    <span className="font-mono text-xs text-muted-foreground">
+                      {work.year}
+                    </span>
                   </div>
-                  <span className="font-mono text-xs text-muted-foreground">
-                    {work.year}
-                  </span>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    {work.description}
+                  </p>
                 </div>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {work.description}
-                </p>
               </article>
             ))}
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import type { SectionId } from "@/lib/portfolio-data";
+import { Spotlight } from "../ui/spotlight";
 
 export function HeroSection({
   onNavigate,
@@ -9,11 +10,13 @@ export function HeroSection({
 }) {
   return (
     <div className="relative flex min-h-full w-full items-center px-6 py-24 pt-28 md:px-12 md:py-0 md:pt-0 lg:px-20 bg-[url('/images/grid.png')] bg-cover bg-center">
+      <Spotlight fill="#EF852E" />
       <div className="grid gap-6 md:grid-cols-2">
         <div className="md:mx-48 mx-auto w-full max-w-4xl z-10">
           <p className="mb-6 font-mono text-xs uppercase tracking-[0.3em] text-primary">
             Product Designer
           </p>
+
           <h1 className="text-balance font-serif text-4xl font-medium leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
             Designing calm, human interfaces for complex products.
           </h1>
