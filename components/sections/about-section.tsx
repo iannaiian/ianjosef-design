@@ -58,6 +58,17 @@ export function AboutSection() {
             ))}
           </div> */}
 
+          <div className="flex flex-wrap gap-2">
+            <a
+              href="https://drive.google.com/file/d/1IwwntzKwRj2jqDvMy54Qpj2boSO4GDLG/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-border mt-6 px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary md:px-8 md:py-4"
+            >
+              Download Resume
+            </a>
+          </div>
+
           <div className="mt-8 flex flex-wrap gap-2">
             {skills.map((skill) => (
               <span
