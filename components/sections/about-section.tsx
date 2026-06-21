@@ -18,7 +18,7 @@ const skills = [
 
 export function AboutSection() {
   return (
-    <div className="flex min-h-full w-full items-center px-6 py-24 md:px-12 md:py-0 lg:px-20 bg-[url('/images/wave.png')] bg-cover bg-center">
+    <div className="flex min-h-full w-full items-center px-6 py-24 md:px-12 md:py-0 lg:px-20 bg-[url('/images/grid.png')] bg-cover bg-center">
       <div className="mx-auto grid w-full max-w-5xl items-center gap-12 md:grid-cols-[0.8fr_1fr] lg:gap-20">
         {/* Portrait */}
         <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-2xl border border-border md:max-w-none">
