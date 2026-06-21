@@ -42,7 +42,7 @@ export function ExperienceSection() {
                         key={tag}
                         className="rounded-full bg-secondary px-2.5 py-1 text-xs text-secondary-foreground"
                       >
-                        {tag}
+                        {tag}test
                       </span>
                     ))}
                   </div>
