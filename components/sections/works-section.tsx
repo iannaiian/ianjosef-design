@@ -86,10 +86,10 @@ export function WorksSection() {
                 <TabsTrigger
                   key={category.id}
                   value={category.id}
-                  className="font-display text-sm font-medium data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                  className="font-display text-md font-medium data-[state=active]:bg-primary data-[state=active]:text-primary-foreground px-5 py-2"
                 >
                   {category.label}
-                  <span className="ml-1.5 text-xs opacity-70">
+                  <span className="ml-1.5 text-xs opacity-70 px-2 rounded-full bg-[#fff] text-[#000]">
                     {category.items.length}
                   </span>
                 </TabsTrigger>
@@ -105,7 +105,7 @@ export function WorksSection() {
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   {category.items.map((work) => (
                     <article
-                      key={work.title}
+                      key={work.id}
                       className="group cursor-pointer relative h-full rounded-2xl border p-2 md:rounded-3xl bg-[#0f0f0f] transition-colors hover:border-primary/50 hover:shadow-lg"
                       onClick={() => openProjectModal(work)}
                     >
@@ -119,7 +119,7 @@ export function WorksSection() {
                       />
                       <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border transition-all duration-300 hover:border-primary/50 hover:shadow-lg">
                         <Image
-                          src={work.image || "/placeholder.svg"}
+                          src={work.image || "/placeholder-bg.jpg"}
                           alt={`${work.title} — ${work.category}`}
                           fill
                           sizes="(max-width: 640px) 100vw, 50vw"
