@@ -97,6 +97,69 @@ export const workCategories: WorkCategory[] = [
 
         url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
       },
+      {
+        title: "Aemorph",
+        category: "Fitness · Website",
+        year: "2024",
+        image: "/images/portfolio-3.png",
+        description:
+          "A modern, conversion-focused website designed for an online coaching business to increase client bookings and strengthen its digital presence.",
+        challenge:
+          "Visitors struggled to understand the coaching offers. No clear calls to action throughout the website. Low engagement on mobile devices. Limited social proof and trust-building elements.",
+        solution:
+          "We redesigned the online coaching website with a user-centered approach focused on increasing conversions and improving the overall user experience. The new website features clear messaging that highlights the coach’s value proposition, simplified navigation to help visitors quickly explore available programs, and strategically placed calls to action that encourage consultation bookings. To build trust and credibility, we incorporated client testimonials, success stories, and coach credentials throughout the site. The entire experience was optimized for mobile devices, ensuring seamless performance and accessibility across all screen sizes.",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
+      },
+      {
+        title: "Aemorph",
+        category: "Fitness · Website",
+        year: "2024",
+        image: "/images/portfolio-2.png",
+        description:
+          "A modern, conversion-focused website designed for an online coaching business to increase client bookings and strengthen its digital presence.",
+        challenge:
+          "Visitors struggled to understand the coaching offers. No clear calls to action throughout the website. Low engagement on mobile devices. Limited social proof and trust-building elements.",
+        solution:
+          "We redesigned the online coaching website with a user-centered approach focused on increasing conversions and improving the overall user experience. The new website features clear messaging that highlights the coach’s value proposition, simplified navigation to help visitors quickly explore available programs, and strategically placed calls to action that encourage consultation bookings. To build trust and credibility, we incorporated client testimonials, success stories, and coach credentials throughout the site. The entire experience was optimized for mobile devices, ensuring seamless performance and accessibility across all screen sizes.",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
+      },
+      {
+        title: "Aemorph",
+        category: "Fitness · Website",
+        year: "2024",
+        image: "/images/portfolio-4.png",
+        description:
+          "A modern, conversion-focused website designed for an online coaching business to increase client bookings and strengthen its digital presence.",
+        challenge:
+          "Visitors struggled to understand the coaching offers. No clear calls to action throughout the website. Low engagement on mobile devices. Limited social proof and trust-building elements.",
+        solution:
+          "We redesigned the online coaching website with a user-centered approach focused on increasing conversions and improving the overall user experience. The new website features clear messaging that highlights the coach’s value proposition, simplified navigation to help visitors quickly explore available programs, and strategically placed calls to action that encourage consultation bookings. To build trust and credibility, we incorporated client testimonials, success stories, and coach credentials throughout the site. The entire experience was optimized for mobile devices, ensuring seamless performance and accessibility across all screen sizes.",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5739&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&show-proto-sidebar=1&hide-ui=1",
+      },
     ],
   },
   {
