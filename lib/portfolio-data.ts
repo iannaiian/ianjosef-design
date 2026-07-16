@@ -74,8 +74,54 @@ export const experiences = [
 export const workCategories: WorkCategory[] = [
   {
     id: "landing",
-    label: "Figma Designs",
+    label: "Case Studies",
     items: [
+      {
+        title: "Plum Accounting",
+        category: "",
+        year: "2024",
+        image: "/images/portfolio-4.png",
+        description:
+          "A marketing website built from the ground up for a restaurant-focused accounting platform, designed to turn skeptical restaurant owners into demo bookings from day one.",
+        challenge:
+          "Plum Accounting had built a genuinely purpose-made accounting tool for restaurant owners — but no website to introduce it. Starting from a blank slate meant every ounce of trust, differentiation, and credibility had to be created from nothing, for an audience that is busy, hands-on, and wary of software promises.",
+        solution: "",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/Sj1P8qQmvcdVUXVvAjcMob/Case-Study--Plum-Accounting?node-id=7-2&t=t1sM3eSo0i8pp4Pl-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A2&hide-ui=1",
+      },
+    ],
+  },
+  {
+    id: "Figma Mockups",
+    label: "Apps",
+    items: [
+      {
+        title: "Plum Ledger",
+        category: "Application",
+        year: "2024",
+        image: "/images/ledger.png",
+        description:
+          "A calm, confidence-building Ledger app focused on clarity and effortless money movement.",
+        challenge:
+          "Users were overwhelmed by the complexity of their existing banking app. Transaction history was buried, account balances weren't clear at a glance, and transferring money between accounts required six separate steps.",
+        solution:
+          "We redesigned the entire experience around clarity and speed. The dashboard now surfaces what matters most through a card-based layout, transaction search is instant, and peer-to-peer transfers take just two taps.",
+        results: [
+          "Easy trackin of finances with a clear, intuitive dashboard",
+          "Clean and modern design that feels approachable and trustworthy",
+          "Reduced clutter and cognitive load, making it easier for users to manage their money",
+        ],
+        tags: ["Mobile Design", "Fintech", "User Research", "Prototyping"],
+
+        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=137-95294&p=f&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=137%3A34938&starting-point-node-id=137%3A95294&hide-ui=1",
+      },
       {
         title: "Aemorph",
         category: "Fitness · Website",
@@ -132,50 +178,6 @@ export const workCategories: WorkCategory[] = [
         tags: ["Web Design", "Figma", "User Research"],
 
         url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=738-1141&t=9EtX2Zrx4Rn8zSFz-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&hide-ui=1",
-      },
-      {
-        title: "Plum Accounting",
-        category: "-",
-        year: "2024",
-        image: "/images/portfolio-4.png",
-        description: "-",
-        challenge: "-",
-        solution: "-",
-        // results: [
-        //   "42% increase in consultation bookings",
-        //   "35% decrease in bounce rate",
-        //   "28% increase in average session duration",
-        //   "51% increase in mobile conversions",
-        // ],
-        tags: ["Web Design", "Figma", "User Research"],
-
-        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=634-848&t=9EtX2Zrx4Rn8zSFz-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&hide-ui=1",
-      },
-    ],
-  },
-  {
-    id: "Web Apps",
-    label: "Apps",
-    items: [
-      {
-        title: "Plum Ledger",
-        category: "Application",
-        year: "2024",
-        image: "/images/ledger.png",
-        description:
-          "A calm, confidence-building Ledger app focused on clarity and effortless money movement.",
-        challenge:
-          "Users were overwhelmed by the complexity of their existing banking app. Transaction history was buried, account balances weren't clear at a glance, and transferring money between accounts required six separate steps.",
-        solution:
-          "We redesigned the entire experience around clarity and speed. The dashboard now surfaces what matters most through a card-based layout, transaction search is instant, and peer-to-peer transfers take just two taps.",
-        results: [
-          "Easy trackin of finances with a clear, intuitive dashboard",
-          "Clean and modern design that feels approachable and trustworthy",
-          "Reduced clutter and cognitive load, making it easier for users to manage their money",
-        ],
-        tags: ["Mobile Design", "Fintech", "User Research", "Prototyping"],
-
-        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=137-95294&p=f&t=gfWKCQaRF0lexNod-0&scaling=scale-down-width&content-scaling=fixed&page-id=137%3A34938&starting-point-node-id=137%3A95294&hide-ui=1",
       },
     ],
   },
