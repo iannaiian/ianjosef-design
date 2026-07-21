@@ -145,12 +145,13 @@ export const workCategories: WorkCategory[] = [
       },
       {
         title: "Zip Forecasting",
-        category: "-",
+        category: "",
         year: "2024",
         image: "/images/portfolio-3.png",
-        description: "-",
-        challenge: "-",
-        solution: "-",
+        description:
+          "Get precise sales projections with Zip Forecasting software. Our cloud-based forecasting software easily integrates with your business and makes sales prediction and business planning much easier than before. Our intuitive software interface is easy to use and learn.",
+        challenge: "",
+        solution: "",
         // results: [
         //   "42% increase in consultation bookings",
         //   "35% decrease in bounce rate",
@@ -163,12 +164,13 @@ export const workCategories: WorkCategory[] = [
       },
       {
         title: "Decatur Tree Services",
-        category: "-",
+        category: "",
         year: "2024",
         image: "/images/portfolio-2.png",
-        description: "-",
-        challenge: "-",
-        solution: "-",
+        description:
+          "Decatur Tree Services is more than just a local business; we are a family legacy rooted deeply in the soil of Houma. Since 2012, Michel and Leon have built a reputation based on unshakeable reliability and expert craftsmanship.",
+        challenge: "",
+        solution: "",
         // results: [
         //   "42% increase in consultation bookings",
         //   "35% decrease in bounce rate",
@@ -179,10 +181,48 @@ export const workCategories: WorkCategory[] = [
 
         url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=738-1141&t=9EtX2Zrx4Rn8zSFz-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&hide-ui=1",
       },
+      {
+        title: "Aerotek",
+        category: "",
+        year: "2024",
+        image: "/images/aerotek.png",
+        description:
+          "Aerotek Environmental, LLC provides Certified Mold Testing & Inspection, Certified Mold Remediation & Removal, and Real Estate Mold Certification in New Jersey, Philadelphia and Delaware.",
+        challenge: "",
+        solution: "",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=612-813&t=ciKxVvkZPaO9E8CF-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5739&hide-ui=1",
+      },
+      {
+        title: "Lily Creek",
+        category: "",
+        year: "2024",
+        image: "/images/lily.png",
+        description:
+          "Lily Creek is a leading wedding and events venue located in the heart of the countryside base in Belden, Mississippi. With its picturesque setting and elegant facilities, Lily Creek offers a perfect backdrop for couples to celebrate their special day.",
+        challenge: "",
+        solution: "",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/W5gynoRGS9KSZjjTDZaa8f/Portfolio?node-id=109-5609&t=ciKxVvkZPaO9E8CF-0&scaling=scale-down-width&content-scaling=fixed&page-id=109%3A5605&starting-point-node-id=109%3A5609&hide-ui=1",
+      },
     ],
   },
   {
-    id: "figma",
+    id: "live",
     label: "Live Websites",
     items: [
       {
