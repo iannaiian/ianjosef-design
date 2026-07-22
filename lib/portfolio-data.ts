@@ -149,7 +149,7 @@ export const workCategories: WorkCategory[] = [
         year: "2024",
         image: "/images/portfolio-3.png",
         description:
-          "Get precise sales projections with Zip Forecasting software. Our cloud-based forecasting software easily integrates with your business and makes sales prediction and business planning much easier than before. Our intuitive software interface is easy to use and learn.",
+          "Get precise sales projections with Zip Forecasting software. A cloud-based forecasting software easily integrates with your business and makes sales prediction and business planning much easier than before. An intuitive software interface is easy to use and learn",
         challenge: "",
         solution: "",
         // results: [
@@ -227,7 +227,7 @@ export const workCategories: WorkCategory[] = [
     items: [
       {
         title: "One Source Associates Inc.",
-        category: "Figma",
+        category: "Live Websites",
         year: "2024",
         image: "/images/onesa.png",
         description:
