@@ -96,6 +96,26 @@ export const workCategories: WorkCategory[] = [
 
         url: "https://www.figma.com/proto/Sj1P8qQmvcdVUXVvAjcMob/Case-Study--Plum-Accounting?node-id=7-2&t=t1sM3eSo0i8pp4Pl-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A2&hide-ui=1",
       },
+      {
+        title: "Zip HACCP",
+        category: "",
+        year: "2024",
+        image: "/images/ziphaccp.png",
+        description:
+          "Zip HACCP makes a handheld food-safety thermometer paired with compliance software used by multi-location restaurant groups such as Mooyah, Fresh Griller, Dunn Brothers Coffee, and Famous Dave's. ",
+        challenge:
+          "The business is selling a handheld device that keeps a restaurant HACCP-compliant. They need a website that read as precise and trustworthy at a glace. The original homepage instead asked visitors to do the work of finding the message.",
+        solution: "",
+        // results: [
+        //   "42% increase in consultation bookings",
+        //   "35% decrease in bounce rate",
+        //   "28% increase in average session duration",
+        //   "51% increase in mobile conversions",
+        // ],
+        tags: ["Web Design", "Figma", "User Research"],
+
+        url: "https://www.figma.com/proto/Sj1P8qQmvcdVUXVvAjcMob/Portfolio--Case-Studies?node-id=76-29&t=iIYVBkDtHX1JPMdM-0&scaling=scale-down-width&content-scaling=fixed&page-id=76%3A26&hide-ui=1",
+      },
     ],
   },
   {
