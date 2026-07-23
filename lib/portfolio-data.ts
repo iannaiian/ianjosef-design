@@ -79,7 +79,7 @@ export const workCategories: WorkCategory[] = [
       {
         title: "Plum Accounting",
         category: "",
-        year: "2024",
+        year: "",
         image: "/images/portfolio-4.png",
         description:
           "A marketing website built from the ground up for a restaurant-focused accounting platform, designed to turn skeptical restaurant owners into demo bookings from day one.",
@@ -99,7 +99,7 @@ export const workCategories: WorkCategory[] = [
       {
         title: "Zip HACCP",
         category: "",
-        year: "2024",
+        year: "",
         image: "/images/ziphaccp.png",
         description:
           "Zip HACCP makes a handheld food-safety thermometer paired with compliance software used by multi-location restaurant groups such as Mooyah, Fresh Griller, Dunn Brothers Coffee, and Famous Dave's. ",
