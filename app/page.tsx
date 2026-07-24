@@ -1,5 +1,17 @@
-import { PortfolioScroller } from "@/components/portfolio-scroller"
+import Navbar from "@/components/Navbar";
+import About from "@/components/About";
+import Works from "@/components/Works";
+import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 
-export default function Page() {
-  return <PortfolioScroller />
+export default function Home() {
+  return (
+    <main className="bg-white">
+      <Navbar />
+      <About />
+      <Works />
+      <Experience />
+      <Contact />
+    </main>
+  );
 }
