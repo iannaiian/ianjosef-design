@@ -100,7 +100,7 @@ export const workCategories: WorkCategory[] = [
   },
   {
     id: "Figma Mockups",
-    label: "Figma Mockups",
+    label: "Websites and Apps",
     items: [
       {
         title: "Plum Ledger",
